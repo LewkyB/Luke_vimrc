@@ -1,4 +1,6 @@
-# VIMstuff
+To find vimrc enter VIM and enter ":version" or "sudo vim $HOME/.vimrc" in terminal
+
+
 syntax enable
 filetype indent on
 set showmatch
