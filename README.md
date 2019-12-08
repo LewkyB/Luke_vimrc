@@ -15,9 +15,8 @@ The tmux plugin continuum and resurrect will automatically save sessions every 1
 - then press ctrl-B then I (capital i) to install tmux plugins.
 - finished!
 
-## Hotkeys
+## tmux Hotkeys
 
-###### tmux
 - Prefix key in tmux: ctrl+B
 - open horizontal pane: prefix key then "
 - open vertical pane: prefix key then %
@@ -25,13 +24,13 @@ The tmux plugin continuum and resurrect will automatically save sessions every 1
 - save session: prefix key then ctrl-s
 - restore session: prefix key then ctrl-r
 
-###### switch between windows in tmux:
+switch between windows in tmux:
 - ctrl-l - left
 - ctrl-k - up
 - ctrl-j - down
 - ctrl-h - right
 
-## Plugins list:
+## Plugins
 
 ###### vim plugins
 - /junegunn/vim-plug
