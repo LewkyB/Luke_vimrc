@@ -1,4 +1,4 @@
-# Luke's vimrc
+# Luke's vimrc and tmux
 
 Only setup for this requires copying and pasting the vimrc and tmux.conf and pressing a hotkey inside of of tmux. The plugins for vim will install automatically when you open vim. For tmux you will have to open tmux and use a hotkey to get the plugins installed. 
 
