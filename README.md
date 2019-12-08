@@ -1,8 +1,10 @@
 # Luke's vimrc
  
+
+## tmux instructions
 ctrl-B then I (capital i) to install tmux plugins. 
 
-## switch between windows in tmux:
+###### switch between windows in tmux:
 - ctrl-l - left
 - ctrl-k - up
 - ctrl-j - down
