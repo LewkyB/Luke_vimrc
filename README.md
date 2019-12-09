@@ -1,50 +1,41 @@
 # Luke's vimrc and tmux
 
-Only setup for this requires copying and pasting the vimrc and tmux.conf and pressing a hotkey inside of of tmux. The plugins for vim will install automatically when you open vim. For tmux you will have to open tmux and use a hotkey to get the plugins installed. 
+Only setup for this requires copying and pasting the vimrc and tmux.conf and pressing a hotkey inside of of `tmux`. The plugins for `vim` will install automatically when you open `vim`. For `tmux` you will have to open `tmux` and use a hotkey to get the plugins installed. 
 
-The tmux plugin continuum and resurrect will automatically save sessions every 10 minutes and will allow them to persist after system restarts. When you want to access your session again just open tmux and use the restore session hotkey.
+The `tmux` plugin `continuum` and `resurrect` will automatically save sessions every 10 minutes and will allow them to persist after system restarts. When you want to access your session again just open `tmux` and use the restore session hotkey.
+
+## Installation
+Requirements: `tmux` version 1.9 (or higher), `vim` version 8.0 (or higher), `curl`, `git`, `bash`
 
 ## Setup Instructions
-- install curl
-  ```
-  sudo apt-get install curl
-  ```
-- make sure vim is 8.0 or newer
 - copy over the .vimrc into your own .vimrc
   ```
   cd ~ && vim .vimrc
   ```
-- open vim so the plugins can install then close out of it
-- open and close vim to fix the colorscheme error (won't happen again after doing this)
-- install tmux (1.8 or newer)
-  ```
-  sudo apt-get install tmux
-  ```
+- open `vim` so the plugins can install then close out of it
+- open and close `vim` to fix the `colorscheme` error (won't happen again after doing this)
 - create file named ".tmux.conf" and paste mine into it
   ```
   cd ~ && vim .tmux.conf
   ```
-- open tmux by typing
-  ```
-  tmux
-  ```
-- then press ctrl-B then I (capital i) to install tmux plugins.
+- open `tmux` by typing `tmux` into the terminal
+- then press `prefix` + <kbd>I</kbd> (capital i) to install `tmux` plugins.
 - finished!
 
 ## tmux Hotkeys
 
-- Prefix key in tmux: ctrl+B
-- open horizontal pane: prefix key then "
-- open vertical pane: prefix key then %
+- `Prefix` key in tmux: <kbd>ctrl</kbd>+<kbd>B</kbd>
+- open horizontal pane: `prefix` + <kbd>"</kbd>
+- open vertical pane: `prefix` + <kbd>%</kbd>
 
-- save session: prefix key then ctrl-s
-- restore session: prefix key then ctrl-r
+- save session: `prefix` + <kbd>ctrl-s</kbd>
+- restore session: `prefix` + <kbd>ctrl-r</kbd>
 
 switch between windows in tmux:
-- ctrl-l - left
-- ctrl-k - up
-- ctrl-j - down
-- ctrl-h - right
+- <kbd>ctrl-l</kbd> - left
+- <kbd>ctrl-k</kbd> - up
+- <kbd>ctrl-j</kbd> - down
+- <kbd>ctrl-h</kbd> - right
 
 ## Plugins
 
