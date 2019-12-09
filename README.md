@@ -48,29 +48,33 @@ switch between windows in tmux:
 
 ## Plugins
 
-###### vim plugins
-- /junegunn/vim-plug
-- /ervandew/supertab 
-- /tpope/fugitive
-- /tpope/vim-surround
-- /tpope/vim-commentary
-- /airblade/vim-gitgutter
-- /jiangmiao/auto-pairs
-- /melonmanchan/vim-tmux-resizer
-- /roxma/vim-tmux-clipboard
-- /christoomey/vim-tmux-navigator
-- /sheerun/vim-polyglot
-- /bling/vim-airline
-- /patstockwell/vim-monokai-tasty 
-- /dense-analysis/ale
-- /scrooloose/nerdtree
 
-###### tmux plugins
-- tpm
-- tmux-yank
-- tmux-copycat
-- tmux-resurrect
-- tmux-continuum
+| vim plugins                         | Description                                                        |
+| ----------------------------------- | ------------------------------------------------------------------ |
+| [vim-plug](https://github.com/junegunn/vim-plug)      | Plugin manager                                   |
+| [supertab](https://github.com/ervandew/supertab) | Use tab to autocomplete                               |
+| [fugitive](https://github.com/tpope/vim-fugitive) |                                                      |
+| [vim-surround](https://github.com/tpope/vim-surround) |                                                  |
+| [vim-commentary](https://github.com/tpope/vim-commentary) |                                              |
+| [vim-gitgutter](https://github.com/airblade/vim-gitgutter) |                                             |
+| [auto-pairs](https://github.com/jiangmiao/auto-pairs) |                                                  |
+| [vim-tmux-resizer](https://github.com/melonmanchan/vim-tmux-resizer) |                                   |
+| [vim-tmux-clipboard](https://github.com/roxma/vim-tmux-clipboard) |                                      |
+| [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) |                                |
+| [vim-polyglot](https://github.com/sheerun/vim-polyglot) |                                                |
+| [vim-airline](https://github.com/bling/vim-airline) |                                                    |
+| [vim-monokai-tasty](https://github.com/patstockwell/vim-monokai-tasty) |                                 |
+| [ale](https://github.com/dense-analysis/ale) |                                                           |
+| [nerdtree](https://github.com/scrooloose/nerdtree) |                                                     |
+
+
+| tmux plugins                         | Description                                                        |
+|--------------------------------------|--------------------------------------------------------------------|
+| [tmux Plugin Manager](https://github.com/tmux-plugins/tpm) | used to easily install tmux plugins |
+| [tmux-yank](https://github.com/tmux-plugins/tmux-yank) | Copy to system clipboard in tmux |
+| [tmux-copycat](https://github.com/tmux-plugins/tmux-copycat) | enables: regex searches, search result highlighting, predefined searches |
+| [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) | Restore tmux environment after system restart |
+| [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) | Continuous saving of tmux environment |
 
 ## Tasks
 - [x] autosave tmux sessions
@@ -85,7 +89,7 @@ switch between windows in tmux:
 ## Useful Cheat Sheet
 ![Vgod's Cheatsheet](https://camo.githubusercontent.com/acdb969ba588498a1886b26cbbdd47527030135d/687474703a2f2f70656f706c652e637361696c2e6d69742e6564752f76676f642f76696d2f76696d2d63686561742d73686565742d656e2e706e67)
 
-## References
+### References
 - https://github.com/amix/vimrc
 - https://tmuxcheatsheet.com/
 - https://github.com/tmux-plugins/tpm
