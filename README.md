@@ -54,16 +54,16 @@ switch between windows in tmux:
 | [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) | Navigation between tmux panes and vim splits        |
 | [vim-polyglot](https://github.com/sheerun/vim-polyglot) | Improved syntax and indentation support   |
 | [vim-airline](https://github.com/bling/vim-airline) | Improved lightweight status/tabline      |
-| [vim-monokai-tasty](https://github.com/patstockwell/vim-monokai-tasty) | favorite colorscheme so far |
+| [vim-monokai-tasty](https://github.com/patstockwell/vim-monokai-tasty) | Favorite colorscheme so far |
 | [ale](https://github.com/dense-analysis/ale) | Allows linting (syntax checking and semantic errors) while editing files  |
 | [nerdtree](https://github.com/scrooloose/nerdtree) | File system explorer `:NERDTree`       |
 
 
 | tmux plugins                         | Description                                                        |
 |--------------------------------------|--------------------------------------------------------------------|
-| [tmux Plugin Manager](https://github.com/tmux-plugins/tpm) | used to easily install tmux plugins |
+| [tmux Plugin Manager](https://github.com/tmux-plugins/tpm) | Used to easily install tmux plugins |
 | [tmux-yank](https://github.com/tmux-plugins/tmux-yank) | Copy to system clipboard in tmux |
-| [tmux-copycat](https://github.com/tmux-plugins/tmux-copycat) | enables: regex searches, search result highlighting, predefined searches |
+| [tmux-copycat](https://github.com/tmux-plugins/tmux-copycat) | Enables: regex searches, search result highlighting, predefined searches |
 | [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) | Restore tmux environment after system restart |
 | [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) | Continuous saving of tmux environment |
 
