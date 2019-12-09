@@ -5,13 +5,29 @@ Only setup for this requires copying and pasting the vimrc and tmux.conf and pre
 The tmux plugin continuum and resurrect will automatically save sessions every 10 minutes and will allow them to persist after system restarts. When you want to access your session again just open tmux and use the restore session hotkey.
 
 ## Setup Instructions
+- install curl
+  ```
+  sudo apt-get install curl
+  ```
 - make sure vim is 8.0 or newer
-- copy over the .vimrc into your own .vimrc (enter "cd ~ && vim .vimrc")
+- copy over the .vimrc into your own .vimrc
+  ```
+  cd ~ && vim .vimrc
+  ```
 - open vim so the plugins can install then close out of it
 - open and close vim to fix the colorscheme error (won't happen again after doing this)
 - install tmux (1.8 or newer)
-- create file named ".tmux.conf" and paste mine into it (enter "cd ~ && vim .tmux.conf")
-- open tmux by entering "tmux" into the terminal
+  ```
+  sudo apt-get install tmux
+  ```
+- create file named ".tmux.conf" and paste mine into it
+  ```
+  cd ~ && vim .tmux.conf
+  ```
+- open tmux by typing
+  ```
+  tmux
+  ```
 - then press ctrl-B then I (capital i) to install tmux plugins.
 - finished!
 
