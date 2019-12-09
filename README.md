@@ -56,6 +56,16 @@ switch between windows in tmux:
 - tmux-resurrect
 - tmux-continuum
 
+## Tasks
+- [x] autosave tmux sessions
+- [x] tmux sessions persist through restart/shutdown
+- [ ] tmux automatically opens previous sessions
+- [ ] fix syntax highlighting for types (int, char, string)
+- [ ] prevent auto-pairs from closing something when I don't want it to happen
+- [ ] auto-complete suggestions at end of line
+- [ ] coc.nvim with functional CCLS
+- [ ] automatically input LSP details into :CocConfig
+
 ## Useful Cheat Sheet
 ![Vgod's Cheatsheet](https://camo.githubusercontent.com/acdb969ba588498a1886b26cbbdd47527030135d/687474703a2f2f70656f706c652e637361696c2e6d69742e6564752f76676f642f76696d2f76696d2d63686561742d73686565742d656e2e706e67)
 
