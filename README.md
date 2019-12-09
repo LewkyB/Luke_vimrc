@@ -42,21 +42,21 @@ switch between windows in tmux:
 
 | vim plugins                         | Description                                                        |
 | ----------------------------------- | ------------------------------------------------------------------ |
-| [vim-plug](https://github.com/junegunn/vim-plug)      | Plugin manager                                   |
-| [supertab](https://github.com/ervandew/supertab) | Use tab to autocomplete                               |
-| [fugitive](https://github.com/tpope/vim-fugitive) |                                                      |
-| [vim-surround](https://github.com/tpope/vim-surround) |                                                  |
-| [vim-commentary](https://github.com/tpope/vim-commentary) |                                              |
-| [vim-gitgutter](https://github.com/airblade/vim-gitgutter) |                                             |
-| [auto-pairs](https://github.com/jiangmiao/auto-pairs) |                                                  |
-| [vim-tmux-resizer](https://github.com/melonmanchan/vim-tmux-resizer) |                                   |
-| [vim-tmux-clipboard](https://github.com/roxma/vim-tmux-clipboard) |                                      |
-| [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) |                                |
-| [vim-polyglot](https://github.com/sheerun/vim-polyglot) |                                                |
-| [vim-airline](https://github.com/bling/vim-airline) |                                                    |
-| [vim-monokai-tasty](https://github.com/patstockwell/vim-monokai-tasty) |                                 |
-| [ale](https://github.com/dense-analysis/ale) |                                                           |
-| [nerdtree](https://github.com/scrooloose/nerdtree) |                                                     |
+| [vim-plug](https://github.com/junegunn/vim-plug)      | Plugin manager     |
+| [supertab](https://github.com/ervandew/supertab) | Use tab to autocomplete    |
+| [fugitive](https://github.com/tpope/vim-fugitive) | Git wrapper `:Gstatus`, `:Gcommit`, `:Gpush` |
+| [vim-surround](https://github.com/tpope/vim-surround) | Change surroundings in pairs        |
+| [vim-commentary](https://github.com/tpope/vim-commentary) | Comment out code when running compiler |
+| [vim-gitgutter](https://github.com/airblade/vim-gitgutter) | Shows a git diff in the 'gutter'  |
+| [auto-pairs](https://github.com/jiangmiao/auto-pairs) | Automatically close brackets, parentheses, and quotes  |
+| [vim-tmux-resizer](https://github.com/melonmanchan/vim-tmux-resizer) | Resize tmux panes and vim splits with Alt + hjkl  |
+| [vim-tmux-clipboard](https://github.com/roxma/vim-tmux-clipboard) | Integration for vim and tmux's clipboard     |
+| [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) | Navigation between tmux panes and vim splits        |
+| [vim-polyglot](https://github.com/sheerun/vim-polyglot) | Improved syntax and indentation support   |
+| [vim-airline](https://github.com/bling/vim-airline) | Improved lightweight status/tabline      |
+| [vim-monokai-tasty](https://github.com/patstockwell/vim-monokai-tasty) | favorite colorscheme so far |
+| [ale](https://github.com/dense-analysis/ale) | Allows linting (syntax checking and semantic errors) while editing files  |
+| [nerdtree](https://github.com/scrooloose/nerdtree) | File system explorer `:NERDTree`       |
 
 
 | tmux plugins                         | Description                                                        |
