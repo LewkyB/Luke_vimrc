@@ -37,6 +37,17 @@ switch between windows in tmux:
 - <kbd>ctrl-j</kbd> - down
 - <kbd>ctrl-h</kbd> - right
 
+## Using vim-fugitive
+
+- Save your credentials for GitHub in your terminal with `git config --global credential.helper store`
+- While in a repository use `git pull` then enter in your username and password (I believe this stores your credentials in plain text so it may not be the best thing to do)
+
+- Open file in `vim`
+- `git add` use `:Gwrite`
+- `git commit "message"` use `:Gcommit -m "message"`
+- `git push` use `:Gpush`
+
+
 ## Plugins
 
 
