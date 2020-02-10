@@ -27,6 +27,7 @@ Requirements: `tmux` version 1.9 (or higher), `vim` version 8.0 (or higher), `cu
 - `Prefix` key in tmux: <kbd>ctrl</kbd>+<kbd>B</kbd>
 - open horizontal pane: `prefix` + <kbd>"</kbd>
 - open vertical pane: `prefix` + <kbd>%</kbd>
+- close current pane: `prefix` + <kbd>x</kbd>
 
 - save session: `prefix` + <kbd>ctrl-s</kbd>
 - restore session: `prefix` + <kbd>ctrl-r</kbd>
